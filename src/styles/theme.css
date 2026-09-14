@@ -1,0 +1,32 @@
+/* Identidad visual: cambiar aquí para cada cliente. Conservar contraste entre pares. */
+:root {
+  --canvas: #faf8f4;
+  --surface: #f1eee7;
+  --ink: #302d28;
+  --muted: #676158;
+  --accent: #9e4933;
+  --accent-hover: #833e2c;
+  --accent-soft: #f0ded2;
+  --border: #dbd5ca;
+  --inverse: #faf8f4;
+  --dark-surface: #353c35;
+  --dark-muted: #d0d5c9;
+  --dark-border: #61685f;
+  --status: #426343;
+  --font-body: "Segoe UI", Arial, sans-serif;
+  --font-display: "Georgia", "Times New Roman", serif;
+  --page-width: 1240px;
+  --radius: 3px;
+}
+
+/* Tailwind 4: utilidades semánticas disponibles para extender los componentes. */
+@theme inline {
+  --color-canvas: var(--canvas);
+  --color-surface: var(--surface);
+  --color-ink: var(--ink);
+  --color-muted: var(--muted);
+  --color-accent: var(--accent);
+  --color-line: var(--border);
+  --font-sans: var(--font-body);
+  --font-editorial: var(--font-display);
+}
